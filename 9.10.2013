@@ -1,0 +1,39 @@
+Notatki z 9.10.2013
+
+Zmiana hasła - passwd
+Logowanie zdalne - ssh. 
+Wylogowywanie -exit, logout
+Blokowanie i odblokowywanie terminala - ctrl+s, ctrl+q
+Kto pracuje - who, w.
+
+Alias:
+alias l='ls -l'
+
+alias ls
+alias rm
+
+command -v redcarpet
+whereis ls
+
+Pliki: tworzenie, usuwanie, przenoszenie, zmiana nazwy. Polecenia: ls, tree, cp, cd, rm, rmdir.
+
+Wyświetlanie zawartości pliku: cat:
+
+cat /etc/bashrc
+cat -n /etc/bashrc
+cat /etc/bashrc /etc/passwd > ~/tmp/etc.txt
+cat /etc/passwd | tr a-z A-Z
+tr a-z A-Z < /etc/passwd
+
+Generujemy klucze: prywatny i publiczny:
+
+ssh-keygen
+... Enter, Enter…
+cat ~/.ssh/id_rsa.pub
+
+
+Limity dyskowe
+quota, du -h i du -sh, df -h
+
+
+http://wbzyl.inf.ug.edu.pl/sp/unix-commands
