@@ -3,7 +3,8 @@
 1\. Używając linii poleceń stwórz strukturę katalogów:
 
 ```sh
-mkdir -p
+mkdir dom nauka/{c,logo,pascal} praca/{dokumenty,zlecenia/{niezrealizowane,zrealizowane}} -p
+
 ```
 
 2\. Przejdź do katalogu dom i utwórz katalog wazne-sprawy
