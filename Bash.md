@@ -1,6 +1,6 @@
 ### Laboratorium 1
 
-1. Używając linii poleceń stwórz strukturę katalogów:
+1\. Używając linii poleceń stwórz strukturę katalogów:
 
 ```
 mkdir -p temp/ dom nauka/{c,logo,pascal,test}, praca/{dokumenty,zlecenia/{zrealizowane,niezrealizowane}}
