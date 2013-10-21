@@ -74,10 +74,10 @@ Wyświetl kalendarz na wrzesień, październik i listopad 2009 r. z miesiącami 
 Wyświetl kalendarz na październik, listopad i grudzień 2009 r. w taki sposób:
 I jeszcze raz na wrzesień i październik oraz na październik i listopad 2009 r z miesiącami obok siebie (cal, cut?):
 ```
-cal 10 2009 -3
+cal 10 2009 -3 | cut -c 1-43
 ```
 ```
-cal 11 2009 -3
+cal 11 2009 -3 | cut -c 1-43
 ```
 
 11\. Jaki był dzień tygodnia 25 maja 1975 r. (cal i date)
