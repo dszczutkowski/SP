@@ -20,5 +20,28 @@ chmod 640 program.c
 
 5\. Będąc w katalogu temp przenieś katalog wazne-sprawy do katalogu praca.
 ```bash
-
+cd temp
+mv dom/wazne-sprawy praca
 ```
+
+6\. Zarchiwizuj cały katalog temp. (zip i tar)
+```bash
+tar -cf temp.tar temp
+```
+
+7\. Usuń katalog temp.
+```bash
+rm -r temp
+```
+
+8\. Odtwórz z archiwum katalog temp. (unzip i tar)
+```bash
+tar -xf temp.tar
+```
+
+9\. Posprzątaj na swoim koncie.
+```bash
+rm temp.tar
+mv temp/praca/wazne-sprawy/ temp/dom/
+```
+
