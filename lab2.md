@@ -44,7 +44,7 @@ tar -xf temp.tar
 rm temp.tar
 mv temp/praca/wazne-sprawy/ temp/dom/
 ```
-10\. Wyświetl linijki ze środka pliku program.c (licząc od dołu). Przykład 5 i 6.
+10\. Wyświetl linijki ze środka pliku *program.c* (licząc od dołu). Przykład linijki 5 i 6.
 ```bash
 tail -n 6 program.c | head -n 2
 ```
