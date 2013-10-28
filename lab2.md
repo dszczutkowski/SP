@@ -51,5 +51,5 @@ tail -n 6 program.c | head -n 2
 
 11\. Wyświetl linijki ze środka pliku *programc* (licząc od dołu) przy użyciu komendy tac. Przykład linijki 5 i 6.
 ```bash
-tac program.c | head -6 | tail -2
+tac program.c | head -6 | tail -2 | tac
 ```
