@@ -34,7 +34,7 @@ cat /etc/passwd |tr "\n" " " | echo \n | wc
 
 7\. Za pomocą filtru tr wykonaj modyfikację pliku plik.txt, polegającą na umieszczeniu każdego słowa w osobnej linii.
 ```bash
- cat plik.txt |tr " " "\n"
+cat plik | tr -s [:space:] "\n"
 ```
 
 
