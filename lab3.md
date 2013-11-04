@@ -40,7 +40,7 @@ cat plik | tr -s [:space:] "\n"
 
 8\. Zlicz wszystkie pliki znajdujące się w katalogu /etc i jego podkatalogach.
 ```bash
-ls -a /etc | wc -l
+ls -aA1 /etc |wc -l
 ```
 
 
