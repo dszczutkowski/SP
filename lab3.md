@@ -28,7 +28,7 @@ tail -n 7 /etc/passwd | head -n 3
 
 6\. Wyświetl zawartość pliku /etc/passwd w jednej linii.
 ```bash
-cat /etc/passwd |tr "\n" " "
+cat /etc/passwd |tr "\n" " " | echo \n | wc
 ```
 
 
