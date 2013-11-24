@@ -1,16 +1,7 @@
 ## Zadania ze środowiska programisty
 
-Tekst wpisujemy w notacji [Markdown](http://daringfireball.net/projects/markdown/basics).
-
-Aby zmienić hasło należy na terminalu wpisać:
-
-```sh
-passwd
-```
-
-Prosty program w C:
-
-```c
-main() {
-  printf("hello world");
-}
+[Labolatorium 1](https://github.com/suscilowicz/SP/blob/master/lab1.md)
+[Labolatorium 2](https://github.com/suscilowicz/SP/blob/master/lab2.md)
+[Labolatorium 3](https://github.com/suscilowicz/SP/blob/master/lab3.md)
+[Labolatorium 4](https://github.com/suscilowicz/SP/blob/master/lab4.md)
+[Labolatorium 5](https://github.com/suscilowicz/SP/blob/master/lab5.md)
