@@ -9,3 +9,5 @@
 [Laboratorium 4](https://github.com/suscilowicz/SP/blob/master/lab4.md)
 
 [Laboratorium 5](https://github.com/suscilowicz/SP/blob/master/lab5.md)
+
+[Laboratorium 6](https://github.com/suscilowicz/SP/blob/master/lab6.md)
